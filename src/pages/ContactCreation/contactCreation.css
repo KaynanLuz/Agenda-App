@@ -1,0 +1,146 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.app {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center; /* Centraliza o container horizontalmente */
+    align-items: center; /* Centraliza o container verticalmente */
+}
+
+.container {
+    display: flex;
+    width: 550px;
+    height: 500px;
+    padding: 10px;
+    background-color: rgb(78, 11, 86);
+    border-radius: 8px;
+    margin-right: 0; /* Removendo o deslocamento */
+    margin: 0 auto; /* Centraliza horizontalmente o container */
+}
+/*.app {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    justify-items: center;
+}
+
+.container {
+    display: flex;
+    width: 550px;
+    height: 500px;
+    padding: 10px;
+    background-color: rgb(78, 11, 86);
+    border-radius: 8px;
+    display: flex;
+    margin-right: 300px;
+    
+}*/
+
+.containerDados {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.labelProp {
+    color: white;
+    margin-left: 30px;
+    margin-top: 24px;
+    
+}
+
+.inputProp {
+    width: 300px;
+    height: 20px;
+    margin-left: 30px;
+    margin-top: 4px;
+    color: rgb(153, 142, 154);
+    border: none;
+    border-bottom: 2px solid white; 
+    background-color: transparent;
+}
+
+.inputProp:focus {
+    outline: none; /* Remove o contorno ao focar */
+    border-bottom-color: rgb(179, 176, 176); /* Muda a cor da borda ao focar */
+}
+
+.groupSignos {
+    margin-top: 18px;
+}
+
+
+.selectProp {
+    width: 200px;   
+    margin-left: 50px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.containerImg {
+    margin-left: 48px;
+    display: flex;
+    flex-direction: column;
+}
+
+#imageContact {
+    width: 130px;
+    background-color: rgb(198, 200, 202);
+    border-radius: 64px;
+    margin-top: 12px;
+}
+
+#btnSearch {
+    width: 124px;
+    height: 50px;
+    border-radius: 6px;
+    margin-top: 190px;
+    margin-left: 4px;
+    cursor: pointer;
+    background-color: rgb(198, 200, 202);
+    color: rgb(6, 6, 6);
+    font-weight: bold;
+    border: none;
+}
+
+#btnAdd {
+    width: 124px;
+    height: 50px;
+    border-radius: 6px;
+    margin-top: 18px;
+    margin-left: 4px;
+    cursor: pointer;
+    background-color: rgb(198, 200, 202);
+    color: rgb(6, 6, 6);
+    font-weight: bold;
+    border: none;
+}
+
+#imgHome {
+    width: 50px;
+    height: 40px;
+    margin-left: 48px;
+    text-decoration: none;
+}
+
+.container-home {
+    margin-top: 434px;
+}
+
+#ancorLine {
+    text-decoration: none;
+}
+
+.title-container {
+    color:rgb(51, 51, 51);
+}
